@@ -30,3 +30,17 @@ if (toggle) {
     nav.style.borderBottom = '1px solid #e6eaee';
   });
 }
+const themeToggle = document.querySelector('.theme-toggle');
+const root = document.documentElement;
+
+if (localStorage.getItem('theme') === 'dark') {
+  root.setAttribute('data-theme', 'dark');
+  themeToggle.textContent = '☀️';
+}
+
+themeToggle.addEventListener('click', () => {
+  const isDark = root.getAttribute('data-theme') === 'dark';
+  root.setAttribute('data-theme', isDark ? 'light' : 'dark');
+  themeToggle.textContent = isDark ? '🌙' : '☀️';
+  localStorage.setItem('theme', isDark ? 'light' : 'dark');
+});

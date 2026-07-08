@@ -9,7 +9,24 @@
   --radius: 12px;
   --transition: 0.6s ease;
 }
+[data-theme="dark"] {
+  --navy: #eaf2fa;
+  --blue: #4da3e8;
+  --blue-light: #1c2a3a;
+  --gray: #1a1f26;
+  --ink: #072645;
+  --muted: #9fb0c0;
+}
 
+body { transition: background 0.6s ease, color 0.6s ease; }
+
+[data-theme="dark"] body { background: #10151b; }
+[data-theme="dark"] .menu,
+[data-theme="dark"] .card,
+[data-theme="dark"] .solutions,
+[data-theme="dark"] .founder-card,
+[data-theme="dark"] .site-footer,
+[data-theme="dark"] .site-header { background: #212f42; }
 * { box-sizing: border-box; margin: 0; padding: 0; }
 html {
   scroll-padding-top: 80px;
