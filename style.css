@@ -127,7 +127,7 @@ a { text-decoration: none; color: inherit; }
 }
 
 /* ---------- Solutions ---------- */
-.solutions { padding: 6rem 5%; background: #fff; text-align: center; }
+.solutions { padding: 5rem 5%; background: #fff; text-align: center; }
 .solutions h2 { margin-bottom: 3rem; }
 
 .card-grid {
@@ -159,7 +159,7 @@ a { text-decoration: none; color: inherit; }
 .about {
   max-width: 750px;
   margin: 0 auto;
-  padding: 8rem 5%;
+  padding: 5rem 5%;
   text-align: center;
 }
 
@@ -167,7 +167,7 @@ a { text-decoration: none; color: inherit; }
 .about p { color: var(--muted); font-size: 1.05rem; }
 
 /* ---------- Founders ---------- */
-.founders { padding: 6rem 5%; background: var(--gray); text-align: center; }
+.founders { padding: 5rem 5%; background: var(--gray); text-align: center; }
 .founders h2 { margin-bottom: 3rem; }
 
 .founder-grid {
