@@ -215,6 +215,31 @@ a { text-decoration: none; color: inherit; }
 }
 
 .founder-contact:hover { color: var(--blue); }
+.founder-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  margin-top: 0.4rem;
+}
+ 
+.icon-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: var(--blue-light);
+  color: var(--blue);
+  transition: background var(--transition), color var(--transition), transform var(--transition);
+}
+ 
+.icon-link:hover {
+  background: var(--blue);
+  color: #fff;
+  transform: translateY(-2px);
+}
 
 /* ---------- Contact ---------- */
 .contact {
