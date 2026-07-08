@@ -7,7 +7,7 @@
   --ink: #1c2530;
   --muted: #5b6b7a;
   --radius: 12px;
-  --transition: 0.3s ease;
+  --transition: 0.6s ease;
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -93,7 +93,7 @@ a { text-decoration: none; color: inherit; }
 .hero h1 {
   font-size: clamp(2rem, 5vw, 3.2rem);
   margin-bottom: 1.2rem;
-  animation: fadeInUp 0.8s ease both;
+  animation: fadeInUp 1.2s ease both;
 }
 
 .hero p {
@@ -101,7 +101,7 @@ a { text-decoration: none; color: inherit; }
   color: var(--muted);
   max-width: 55ch;
   margin-bottom: 1.6rem;
-  animation: fadeInUp 0.8s ease 0.2s both;
+  animation: fadeInUp 1.2s ease 0.4s both;
 }
 
 .btn {
@@ -114,7 +114,7 @@ a { text-decoration: none; color: inherit; }
   border: none;
   cursor: pointer;
   transition: transform var(--transition), box-shadow var(--transition), background var(--transition);
-  animation: fadeInUp 0.8s ease 0.4s both;
+  animation: fadeInUp 1.2s ease 0.8s both;
 }
 
 .btn:hover {
@@ -124,7 +124,7 @@ a { text-decoration: none; color: inherit; }
 }
 
 /* ---------- Solutions ---------- */
-.solutions { padding: 5rem 5%; background: #fff; text-align: center; }
+.solutions { padding: 8rem 5%; background: #fff; text-align: center; }
 .solutions h2 { margin-bottom: 3rem; }
 
 .card-grid {
@@ -156,7 +156,7 @@ a { text-decoration: none; color: inherit; }
 .about {
   max-width: 750px;
   margin: 0 auto;
-  padding: 5rem 5%;
+  padding: 10rem 5%;
   text-align: center;
 }
 
@@ -164,7 +164,7 @@ a { text-decoration: none; color: inherit; }
 .about p { color: var(--muted); font-size: 1.05rem; }
 
 /* ---------- Founders ---------- */
-.founders { padding: 5rem 5%; background: var(--gray); text-align: center; }
+.founders { padding: 8rem 5%; background: var(--gray); text-align: center; }
 .founders h2 { margin-bottom: 3rem; }
 
 .founder-grid {
@@ -217,7 +217,7 @@ a { text-decoration: none; color: inherit; }
 .contact {
   max-width: 550px;
   margin: 0 auto;
-  padding: 5rem 5%;
+  padding: 10rem 5%;
   text-align: center;
 }
 
@@ -266,7 +266,7 @@ a { text-decoration: none; color: inherit; }
 .reveal {
   opacity: 0;
   transform: translateY(30px);
-  transition: opacity 0.6s ease, transform 0.6s ease;
+  transition: opacity 1s ease, transform 1s ease;
 }
 
 .reveal.visible { opacity: 1; transform: translateY(0); }
