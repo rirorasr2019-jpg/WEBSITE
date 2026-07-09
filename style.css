@@ -15,18 +15,18 @@
   --blue-light: #1c2a3a;
   --gray: #1a1f26;
   --ink: #072645;
-  --muted: #9fb0c0;
+  --muted: #ffffff;
 }
 
-body { transition: background 0.6s ease, color 0.6s ease; }
+body { transition: background 1s ease, color 1s ease; }
 
-[data-theme="dark"] body { background: #10151b; }
+[data-theme="dark"] body { background: #16283d; }
 [data-theme="dark"] .menu,
 [data-theme="dark"] .card,
 [data-theme="dark"] .solutions,
 [data-theme="dark"] .founder-card,
 [data-theme="dark"] .site-footer,
-[data-theme="dark"] .site-header { background: #212f42; }
+[data-theme="dark"] .site-header { background: #161c24; }
 * { box-sizing: border-box; margin: 0; padding: 0; }
 html {
   scroll-padding-top: 80px;
